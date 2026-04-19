@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body-home {
+    background-image:url('fuji-mountain.jpg');
+    background-size:cover;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 0;
+    height: 10vh;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+}
+
+nav {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+.content-box {
+    background-color: rgba(211, 204, 208, 0.418);
+    padding: 20px;
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 120px;
+    box-shadow: 0 4px 8px rgb(30, 39, 110);
+    max-width: 800px;
+    margin: 0 auto;
+    color: #f4f4f4f7;
+    font-style: italic;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ecdddd;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 30%;
+    background-color: #ecbe5c42;
+    max-height: 220px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 20px;
+    border-radius: 100px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 5px 10px rgb(30, 39, 110);
+}
+
+.profile-img:hover {
+    box-shadow: 0 5px 10px rgb(110, 63, 30);
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-align: justify;
+}
+
+.about-content img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-icon {
+    font-size: 40px;
+    margin: 0 15px;
+    color: #333;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #0077b5; /* LinkedIn blue */
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #777;
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-content img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+#content {
+    background-image:url('fuji-mountain.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #f4f4f4;
+    padding-top: 70vh;
+    text-align: center;
+}
+
+.welcome {
+    font-size: 50px;
+}
+
+.yagini {
+    font-size: 20px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 5px 10px rgb(30, 39, 110);
+}
+.yagitu {
+    font-size: 20px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgb(30, 39, 110);
+}
+
+.yagitu:hover {
+    box-shadow: 0 10px 15px rgb(224, 162, 162);
+    background-color: #e8ecee61;
+    border-radius: 100px;
+    width: 150px;
+    height: 60px;
+}
+
+/* style biodata form */
+
+.body-bio {
+    font-family: Arial, sans-serif;
+    background-image:url('majestic-mountain.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 80%;
+    max-width: 350px;
+    margin: 40px auto;
+    background-color: rgba(234, 223, 225, 0.873);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 20px rgba(20, 128, 126, 0.919);
+    text-align: left;
+}
+
+.container:hover {
+    max-width: 500px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    background-color: rgba(249, 247, 247, 0.685);
+}
+
+label {
+    color: #333;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+input[type="text"], select,input[type="date"], textarea {
+    width: 100%;
+}
+
+.button-submit {
+    width: 100%;
+    background-color: rgba(16, 23, 69, 0.425);
+    border: 2;
+    border-style:outset;
+    color: #f4f4f4;
+    margin-bottom: 10px;
+}
+
+.button-submit:hover{
+    box-shadow: 0 5px 20px rgba(196, 53, 53, 0.2);
+}
+
+.button-back {
+    width: 100%;
+    background-color: rgba(69, 16, 29, 0.425);
+    border: 2;
+    border-style:outset;
+    color: #f4f4f4;
+    margin-bottom: 10px;
+}
+
+.button-back:hover {
+    box-shadow: 0 5px 20px rgba(62, 53, 196, 0.2);
+}
+
+
+
+/* style hobi */
+
+/* #content-hobi {
+    background-image:url('fuji-mountain.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #f4f4f4;
+    padding-top: 20vh;
+    text-align: center;
+}
+
+.hobi {
+    margin-top: 30vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #cad2d62c;
+    border: 2px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 15px;
+    font-style: italic;
+} */
+
+
